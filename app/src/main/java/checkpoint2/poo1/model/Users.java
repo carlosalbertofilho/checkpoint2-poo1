@@ -12,8 +12,7 @@ public abstract class Users {
     private String street;
 
     public static Integer getRandomID(){
-        UUID idOne = UUID.randomUUID();
-        String str = ""+idOne;
+        String str = UUID.randomUUID().toString();
         int uid = str.hashCode();
         String filterStr = ""+uid;
         str = filterStr.replaceAll("-","");
