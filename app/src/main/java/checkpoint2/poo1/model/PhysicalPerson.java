@@ -5,6 +5,16 @@ import java.util.regex.Pattern;
 public class PhysicalPerson extends Users implements User {
     private String cpf;
 
+    /**
+     * Construtor da Classe PhysicalPerson
+     * @param id                Id do usuário
+     * @param cpf               CPF do usuário
+     * @param name              Nome do usuário
+     * @param phone             Telefone do usuário
+     * @param street            Endereço do usuário
+     * @param numberStreet      Número da Residência do usuário
+     * @param postalCod         CEP do usuário
+     */
     public PhysicalPerson(Integer id,
                           String cpf,
                           String name,

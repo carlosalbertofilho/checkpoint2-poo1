@@ -22,6 +22,10 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:30.1.1-jre'
+
+    // this Apache Commons Lang Library
+    implementation 'org.apache.commons:commons-lang3:3.9'
+
 }
 
 application {
